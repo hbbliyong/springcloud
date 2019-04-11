@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: bimbox
+
+logging:
+  level:
+    com:
+      gl:
+        bimboxapi:
+          feignclient:
+            BimBoxClient:
+              DEBUG
